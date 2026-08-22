@@ -1,0 +1,13 @@
+metric,value,unit,stage
+Source patients,1000.0,patients,Discovery
+Analysable patients,978.0,patients,Discovery
+Positive-spectrum effective rank,5.781627871619092,dimensionless,Discovery
+d90,6.0,dimensions,Discovery
+d95 / frozen B8 dimension,8.0,dimensions,Discovery
+Held-out B8 reconstruction R2,0.9640442363855232,R2,Discovery
+Ordinary PCA R2 at d=8,0.9640477178993028,R2,Comparator
+Fourier R2 at d=8,0.8688150629133446,R2,Comparator
+Matched-random 95th-percentile R2,0.1763132519486591,R2,Comparator
+Half-split subspace overlap median,0.9776711907405063,overlap,Stability
+Within-window variance captured by B8,0.923147689991933,fraction,Between-within alignment
+Between/within projector overlap,0.945114847275724,overlap,Between-within alignment

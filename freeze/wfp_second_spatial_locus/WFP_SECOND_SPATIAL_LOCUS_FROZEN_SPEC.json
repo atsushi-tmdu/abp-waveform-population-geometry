@@ -1,0 +1,40 @@
+{
+  "analysis_script_sha256": "21ebef6b1776f9ccb493aeec585ff103fb3a7994263de0c5f75e9622b7c22453",
+  "axis5_6_targeted_check": {
+    "rule": "evaluate Axis5-6 at the frozen W2 selected by full B8 and rank against all 28 axis pairs",
+    "status": "EXPLORATORY_POST_STAGE5_VISUAL_HYPOTHESIS"
+  },
+  "basis_change_authorized": false,
+  "clinical_labels_authorized": false,
+  "coordinates_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "dimension_reselection_authorized": false,
+  "first_locus_source": "Stage5B full-B8 optimum separately for each metric/window width",
+  "frozen_dimension": 8,
+  "metrics": [
+    "shape",
+    "slope",
+    "curvature"
+  ],
+  "notch_region_prespecified": false,
+  "notch_specific_testing_authorized": false,
+  "patient_scores_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "rationale": "Stage5C second independent direction remained near first spatial locus; now answer the distinct question of the next spatially separated localization site",
+  "schema_version": 1,
+  "scientific_role": "explicitly_exploratory_post_stage5c_spatial_characterization",
+  "second_locus_search": "all same-width windows not intersecting excluded zone; optimize over all frozen B8 directions",
+  "spatial_exclusion_rule": "exclude first window expanded by ceil(width/2) operator-grid points on each side",
+  "stage": "5D",
+  "stage5b_best_windows_sha256": "12e32d24895edbf7eeeaafe089828e96d55e32932c03dfb5ace801f4a071d965",
+  "stage5b_first_directions_sha256": "6ff47cd494620b1016f1866c62718bc4583610d21fc4dce9671ec87be82e7440",
+  "stage5b_result_sha256": "c4cc55f44dce40e2734840dab0c7ec4ca4dc82b4f7e77b9c1317fb365761f431",
+  "stage5c_result_sha256": "633c18ddb1d6b92517ca31e2380cb56610e31afde84d3ddd81b08e55f167125b",
+  "status": "FROZEN_BEFORE_SECOND_SPATIAL_LOCUS",
+  "third_spatial_locus_search_authorized": false,
+  "waveform_reprocessing_authorized": false,
+  "window_widths_points": [
+    4,
+    8,
+    16
+  ],
+  "work_package": "WF-P"
+}

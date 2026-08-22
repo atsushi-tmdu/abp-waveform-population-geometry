@@ -1,0 +1,11 @@
+{
+  "B8_relearning_allowed": false,
+  "central_vector_normalization": "subtract phase mean, divide by phase population SD (numpy std, ddof=0); block/patient central vectors are renormalized after averaging",
+  "equivalent_column_formula": "z = B8.T @ (x64 - population_center)",
+  "input_role": "64-vector block/patient central morphology in inherited shape-normalized phase representation",
+  "patient_specific_rotation_allowed": false,
+  "phase_endpoint": false,
+  "phase_points": 64,
+  "projection_row_vector_formula": "z = (x64 - population_center) @ frozen_B8_basis",
+  "version": "wfp-interface-v1.0.0"
+}

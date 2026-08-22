@@ -1,0 +1,29 @@
+WF-P RELEASE INTERFACE PUBLIC-SAFETY AUDIT
+==========================================
+Decision: WFP_RELEASE_INTERFACE_PUBLIC_SAFETY_PASS
+Scientific effects calculated: NO
+Raw waveform arrays opened: NO
+Patient-level files present: NO
+Identifier columns detected: NO
+Absolute/local path leakage detected: NO
+Interface SHA256 manifest integrity: PASS
+Expected interface files present: YES
+Frozen B8 changed: NO
+Analysable n metadata: 978
+
+B8 orthonormality max abs error: 1.998e-15
+Matrix symmetry max abs errors:
+  Sigma_W: 0.000e+00
+  Sigma_B_ordinary: 0.000e+00
+  S_rep: 0.000e+00
+  S_rep_positive: 1.110e-16
+
+Semantic checks:
+  ordinary Sigma_B and replicate-corrected S_rep are distinct: YES
+  B8 relearning prohibited: YES
+  patient-specific rotation prohibited: YES
+  exact stored axis orientation frozen: YES
+
+Next step:
+  Interface directory is suitable for inclusion in a public staging tree.
+  Proceed to release-quality figures/tables and repository staging.

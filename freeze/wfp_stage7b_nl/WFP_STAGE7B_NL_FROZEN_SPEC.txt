@@ -1,0 +1,18 @@
+WF-P STAGE 7B-NL SPEC FREEZE
+============================
+Decision: WFP_STAGE7B_NL_SPEC_FREEZE_PASS
+Existing Stage7B modified: NO
+Full cohort n: 978
+Height complete-case n: 693
+Height definition: height_median_cm
+Age smooth: RCS4 with training-fold 5/35/65/95% knots
+Age x sex: one prespecified spline interaction family
+Height smooth: RCS4 in complete cases
+Height x sex: one secondary 1-df linear interaction
+Primary quantity: patient-level 5-fold OOF R2 and delta R2
+Model-free sensitivity: residual dCor, 999 permutations
+Model fishing / hyperparameter search: NO
+Variance/distributional extension automatically authorized: NO
+Ztrait/Zstate labels authorized: NO
+Analysis SHA256: 5b88a4681587d98796a1a6fae3c877a0414153c770e1d3f9ccfba7a9e8869a75
+Frozen spec SHA256: cb09d743e388bc04447f51c303160f0811c1319bae296644e6a19ce79d7a253c

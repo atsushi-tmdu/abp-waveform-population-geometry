@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "matplotlib": "3.10.6",
+    "numpy": "2.5.1",
+    "pandas": "3.0.3",
+    "pillow": "11.3.0",
+    "scipy": "1.16.2"
+  },
+  "platform": "macOS-15.6.1-x86_64-i386-64bit-Mach-O",
+  "python": "3.13.7 (main, Sep 18 2025, 13:21:08) [Clang 17.0.0 (clang-1700.3.19.1)]"
+}

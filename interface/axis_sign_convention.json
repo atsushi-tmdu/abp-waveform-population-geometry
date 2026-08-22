@@ -1,0 +1,34 @@
+{
+  "axis_order": [
+    "z1",
+    "z2",
+    "z3",
+    "z4",
+    "z5",
+    "z6",
+    "z7",
+    "z8"
+  ],
+  "replay_absolute_axis_correlations": [
+    1.0000000000000004,
+    0.9999999999999992,
+    0.9999999999999994,
+    1.0000000000000009,
+    1.0000000000000013,
+    0.9999999999999993,
+    1.0000000000000002,
+    0.999999999999998
+  ],
+  "replay_signs_for_integrity_only": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "rule": "Use exact stored column orientation from WFP_DISCOVERY_COMMON_COORDINATES.npz; no post-hoc sign flip.",
+  "version": "wfp-interface-v1.0.0"
+}

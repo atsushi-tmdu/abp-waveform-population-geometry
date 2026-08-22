@@ -1,0 +1,88 @@
+{
+  "analysis_script_sha256": "a928ae3c3a81ebf9ba662cbde819d4384c7c8b13d96565ce29f32e4315d1c4ca",
+  "authoritative_run1_sha256": "811775f50283a8f5d813d517f6c8c4bc3ed846fa994c3145eda96404ff04ee01",
+  "block_definition": {
+    "block_sec": 60,
+    "block_weighting": "equal clock-time blocks within patient",
+    "min_accepted_beats_per_block": 32,
+    "min_even_blocks": 3,
+    "min_odd_blocks": 3,
+    "min_total_blocks": 6,
+    "patient_weighting": "equal patients"
+  },
+  "block_yield_sha256": "5f0ee3625c0ec42af2276e08bc9d45cdc854879cf9d8953d0aeb128aaa883a43",
+  "comparators": [
+    "ordinary patient-mean PCA with identical patient CV folds",
+    "fixed low-harmonic Fourier subspaces at even dimensions",
+    "200 deterministic matched random mean-zero subspaces at selected dimension"
+  ],
+  "cross_validation": {
+    "dimension_rule": "smallest d with CV R2_all >= max(0.90,0.95*R2_at_max_available_d) and CV R2_odd>=0.85 and CV R2_even>=0.85",
+    "fold_seed": 20260820,
+    "folds": 5,
+    "max_dimension": 24
+  },
+  "deferred": [
+    "age/sex clinical linkage and residualization",
+    "long-duration WF3 trajectory",
+    "Zstate or Ztrait identification",
+    "independent confirmatory validation"
+  ],
+  "expected_source_n": 1000,
+  "forbidden_after_access": [
+    "changing primary representation",
+    "changing p=64",
+    "changing 60-s block length",
+    "changing min beats/block=32",
+    "changing patient eligibility 6/3/3",
+    "changing odd/even replicate definition",
+    "changing primary replicate-corrected operator",
+    "changing CV folds/seed or dimension rule",
+    "changing comparator family or random seeds",
+    "using clinical labels to redefine morphology axes"
+  ],
+  "morphology_smoke_sha256": "424d96d0e3772b3f7c9bbada8521217aeb553144ef9bd9d75807deb0648580a2",
+  "patient_representative": {
+    "all_rep": "normalize(mean eligible block central shapes)",
+    "block_shape": "normalize(mean accepted shape_norm beats within eligible 60-s block))",
+    "coherence": "phase SD of unrenormalized block mean shape; retained separately",
+    "even_rep": "normalize(mean even-indexed eligible block central shapes)",
+    "odd_rep": "normalize(mean odd-indexed eligible block central shapes)",
+    "terminology": "30-min central morphology; not trait/state"
+  },
+  "primary_operator": "0.5*(Cov(odd,even)+Cov(even,odd))",
+  "representation": {
+    "beat_pipeline": "authoritative WF1/WF2 native-125-Hz peak detection, midpoint boundaries, locked 30-min QC",
+    "phase_grid": 64,
+    "representation": "shape_norm",
+    "source_fs_hz": 125
+  },
+  "schema_version": 1,
+  "scientific_role": "discovery_derivation_only",
+  "source_cohort": "Validation1000",
+  "source_freeze_sha256": "0adff952b5dd166110e35200919078e9a14d42574857f429203d1970eec2cd84",
+  "spectrum": {
+    "d90_positive": true,
+    "d95_positive": true,
+    "effective_rank_positive": true,
+    "negative_spectral_mass_reported": true,
+    "positive_eigenvalues_define_reproducible_spectrum": true
+  },
+  "stability": {
+    "metric": "projector overlap at selected dimension",
+    "patient_halfsplit_repeats": 100,
+    "seed": 20260822
+  },
+  "status": "FROZEN_BEFORE_VALIDATION1000_WFP_DISCOVERY_ACCESS",
+  "within_window_alignment": {
+    "interpretation": "short-window precursor only; not WF3 long-duration covariance",
+    "metrics": [
+      "within-window variance captured by between basis",
+      "positive between variance captured by within basis",
+      "projector overlap",
+      "principal angles"
+    ],
+    "within_operator": "equal-patient mean covariance of eligible 60-s block central shapes about patient block mean"
+  },
+  "work_package": "WF-P"
+}

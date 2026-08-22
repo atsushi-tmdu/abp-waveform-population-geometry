@@ -1,0 +1,14 @@
+WF-P RELEASE PUBLICATION ASSETS
+===============================
+Decision: WFP_RELEASE_PUBLICATION_ASSETS_COMPLETE
+Scientific effects calculated: NO
+Patient-level data used: NO
+Frozen B8 changed: NO
+Public release figures: 2
+Public release tables: 5
+Patient cloud included: NO
+Constitutional figure included: NO (table retained)
+
+Next step:
+  Visual-QC the two release figures.
+  If accepted, build the separate GitHub staging tree.

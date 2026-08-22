@@ -1,0 +1,16 @@
+WF-P INTERFACE SERIALIZATION FREEZE
+==================================
+Decision: WFP_INTERFACE_SERIALIZATION_FREEZE_PASS
+Scientific role: ENGINEERING RELEASE SERIALIZATION ONLY
+New scientific analysis authorized: NO
+Frozen B8 change authorized: NO
+Source case filenames pinned: 1000
+Expected analysable n: 978
+
+Operators to serialize:
+  Sigma_B_ordinary = ordinary covariance of 30-min central morphology
+  S_rep = final replicate-corrected primary operator
+  S_rep_positive = positive-spectrum PSD form of S_rep
+
+Serializer SHA256: 6907ef666365fa920e45bebad15a709b63b4a083adbc5f580ae6d2410dd9da1d
+Frozen spec SHA256: ab0f7f577aab1b9da2fc084da5a884dc5fb162c5c5854dc8b26cc12a2ac50b35

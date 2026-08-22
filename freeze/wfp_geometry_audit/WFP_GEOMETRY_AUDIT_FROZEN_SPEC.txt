@@ -1,0 +1,9 @@
+WF-P GEOMETRY AUDIT SPEC FREEZE
+================================
+Decision: WFP_GEOMETRY_AUDIT_SPEC_FREEZE_PASS
+Dimension: 8
+Clinical labels authorized: NO
+Dimension reselection authorized: NO
+Basis replacement authorized: NO
+Geometry script SHA256: 5b92d573f334679f2afd59962b99de88882b1d7e860f3bf625c631357fbbfee7
+Frozen spec SHA256: 9f0e31391ea6e1b014d20c43d3097ff3b32cfc7641875d4bb572c2e235fc6650

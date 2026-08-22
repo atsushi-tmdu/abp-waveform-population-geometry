@@ -1,0 +1,11 @@
+WF-P RESIDUAL LOCALIZATION SPEC FREEZE
+======================================
+Decision: WFP_RESIDUAL_LOCALIZATION_SPEC_FREEZE_PASS
+Frozen dimension: 8
+Notch region prespecified: NO
+Notch-specific testing authorized: NO
+Clinical labels authorized: NO
+Dimension reselection authorized: NO
+Basis change authorized: NO
+Analysis script SHA256: 858a1b35b244f0aefb6f99e32474a70f487f135621003b30585e90f12c71bdd8
+Frozen spec SHA256: d6cc8c14be150d8ee3d35c214bff61b7b4ee86d695b0846d6764e44b1ca04422

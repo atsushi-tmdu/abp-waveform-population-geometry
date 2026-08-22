@@ -1,0 +1,12 @@
+WF-P0 MINIMAL IDENTIFIABILITY SPEC FREEZE
+========================================
+Decision: WFP0_MINIMAL_IDENTIFIABILITY_SPEC_FREEZE_PASS
+Expected patients: 978
+Frozen B8 dimension: 8
+Frozen B8 relearning authorized: NO
+Clinical covariates authorized: NO
+Primary factor set: level + log(scale) + log(duration)
+WF-P2 association authorized: NO
+Extended normalization audit automatically authorized: NO
+Analysis SHA256: 536b8192bd5846cecd2ada40d110cb2d30aad1dc4b120631702082f0c4cf3be1
+Frozen spec SHA256: 44d8fa0dc9cd76641795645261ab13c6ede796a0d4d298284e168c0b1921d6e0

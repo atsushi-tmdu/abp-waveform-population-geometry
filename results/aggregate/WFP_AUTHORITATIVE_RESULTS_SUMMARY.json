@@ -1,0 +1,476 @@
+{
+  "decision": "WFP_FINAL_CLOSEOUT_COMPLETE",
+  "frozen_B8_changed": false,
+  "interpretation_boundary": {
+    "not_supported": [
+      "B8 is statistically independent of age/sex/height.",
+      "B8 is completely orthogonal to constitutional attributes.",
+      "Any B8 axis is a stable trait or physiological state.",
+      "Residual constitutional dependence is specifically a nonlinear mean effect.",
+      "Residual constitutional dependence has been localized to variance/covariance structure.",
+      "Disease-specific or treatment-response meaning of B8.",
+      "External generalizability beyond the studied MIMIC setting."
+    ],
+    "supported": [
+      "A reproducible low-dimensional population-common morphology space was identified in the WF-P discovery cohort.",
+      "Patient central-morphology points are broadly separated relative to short-window replicate discrepancy.",
+      "Short-window within-patient movement is non-negligible but smaller than between-patient separation.",
+      "Measured age/sex/height provided little OOF conditional-mean predictability across prespecified linear and low-df nonlinear models.",
+      "Coarse chronic phenotype labels did not improve OOF prediction beyond the prespecified baseline.",
+      "Residual model-free dependence on constitutional variables remained detectable after pipeline/fold artifact controls."
+    ]
+  },
+  "metrics": [
+    {
+      "metric": "source_n",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "patients",
+      "value": 1000
+    },
+    {
+      "metric": "analysable_n",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "patients",
+      "value": 978
+    },
+    {
+      "metric": "effective_rank",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "dimensionless",
+      "value": 5.781627871619092
+    },
+    {
+      "metric": "d90",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "dimensions",
+      "value": 6
+    },
+    {
+      "metric": "d95",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "dimensions",
+      "value": 8
+    },
+    {
+      "metric": "selected_B8_dimension",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "dimensions",
+      "value": 8
+    },
+    {
+      "metric": "cv_r2_all",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "R2",
+      "value": 0.9640442363855233
+    },
+    {
+      "metric": "half_split_overlap_median",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "overlap",
+      "value": 0.9776711907405065
+    },
+    {
+      "metric": "within_variance_captured_by_between_basis",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "fraction",
+      "value": 0.923147689991933
+    },
+    {
+      "metric": "between_within_projector_overlap",
+      "note": "",
+      "role": "authoritative",
+      "section": "population_geometry",
+      "source": "discovery",
+      "unit": "overlap",
+      "value": 0.945114847275724
+    },
+    {
+      "metric": "conventional_to_B8_oof_r2",
+      "note": "level + log(scale) + log(duration)",
+      "role": "authoritative",
+      "section": "representation_identifiability",
+      "source": "WFP0",
+      "unit": "R2",
+      "value": 0.136957
+    },
+    {
+      "metric": "conditioned_residual_trace_fraction",
+      "note": "",
+      "role": "authoritative",
+      "section": "representation_identifiability",
+      "source": "WFP0",
+      "unit": "fraction",
+      "value": 0.863038
+    },
+    {
+      "metric": "age_sex_oof_r2",
+      "note": "",
+      "role": "authoritative",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "R2",
+      "value": 0.029482
+    },
+    {
+      "metric": "age_sex_residual_trace_fraction",
+      "note": "",
+      "role": "authoritative",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "fraction",
+      "value": 0.970517
+    },
+    {
+      "metric": "quadratic_age_sex_oof_r2",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "R2",
+      "value": 0.026249
+    },
+    {
+      "metric": "conventional_plus_age_sex_oof_r2",
+      "note": "",
+      "role": "secondary",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "R2",
+      "value": 0.18359
+    },
+    {
+      "metric": "age_sex_increment_beyond_conventional",
+      "note": "",
+      "role": "secondary",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "delta_R2",
+      "value": 0.046634
+    },
+    {
+      "metric": "height_complete_case_n",
+      "note": "",
+      "role": "authoritative",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "patients",
+      "value": 693
+    },
+    {
+      "metric": "height_delta_beyond_age_sex",
+      "note": "",
+      "role": "secondary",
+      "section": "constitutional_mean",
+      "source": "Stage7B",
+      "unit": "delta_R2",
+      "value": -0.001292
+    },
+    {
+      "metric": "between_pairwise_rms",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "B8_distance",
+      "value": 3.161452
+    },
+    {
+      "metric": "between_pairwise_median",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "B8_distance",
+      "value": 2.453052
+    },
+    {
+      "metric": "nearest_neighbor_median",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "B8_distance",
+      "value": 0.463522
+    },
+    {
+      "metric": "within_equal_patient_rms",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "B8_distance",
+      "value": 0.679064
+    },
+    {
+      "metric": "adjacent_60s_step_median",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "B8_distance",
+      "value": 0.190629
+    },
+    {
+      "metric": "odd_even_replicate_rms",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "B8_distance",
+      "value": 0.138692
+    },
+    {
+      "metric": "between_over_replicate",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "ratio",
+      "value": 22.794746
+    },
+    {
+      "metric": "within_over_between",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "ratio",
+      "value": 0.214795
+    },
+    {
+      "metric": "within_over_replicate",
+      "note": "",
+      "role": "authoritative",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "ratio",
+      "value": 4.896195
+    },
+    {
+      "metric": "p95_block_displacement_ge_nn_fraction",
+      "note": "",
+      "role": "secondary",
+      "section": "between_within_scale",
+      "source": "scale audit",
+      "unit": "fraction",
+      "value": 0.705521
+    },
+    {
+      "metric": "analysis_n",
+      "note": "",
+      "role": "authoritative",
+      "section": "chronic_phenotype_mapping",
+      "source": "Stage7C",
+      "unit": "patients",
+      "value": 887
+    },
+    {
+      "metric": "baseline_oof_r2",
+      "note": "",
+      "role": "authoritative",
+      "section": "chronic_phenotype_mapping",
+      "source": "Stage7C",
+      "unit": "R2",
+      "value": 0.182252
+    },
+    {
+      "metric": "joint_8phenotype_oof_r2",
+      "note": "",
+      "role": "authoritative",
+      "section": "chronic_phenotype_mapping",
+      "source": "Stage7C",
+      "unit": "R2",
+      "value": 0.17505
+    },
+    {
+      "metric": "phenotype_block_delta_oof_r2",
+      "note": "",
+      "role": "authoritative",
+      "section": "chronic_phenotype_mapping",
+      "source": "Stage7C",
+      "unit": "delta_R2",
+      "value": -0.007202
+    },
+    {
+      "metric": "FDR_significant_global_phenotypes",
+      "note": "8 prespecified global phenotype tests",
+      "role": "authoritative",
+      "section": "chronic_phenotype_mapping",
+      "source": "Stage7C",
+      "unit": "count",
+      "value": 0
+    },
+    {
+      "metric": "M0_linear_age_sex_oof_r2",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "R2",
+      "value": 0.029482
+    },
+    {
+      "metric": "M1_RCS_age_sex_oof_r2",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "R2",
+      "value": 0.023073
+    },
+    {
+      "metric": "M1_minus_M0",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "delta_R2",
+      "value": -0.006409
+    },
+    {
+      "metric": "M2_RCS_age_by_sex_oof_r2",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "R2",
+      "value": 0.018845
+    },
+    {
+      "metric": "M2_minus_M0",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "delta_R2",
+      "value": -0.010637
+    },
+    {
+      "metric": "H2_RCS_age_height_oof_r2",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "R2",
+      "value": 0.016699
+    },
+    {
+      "metric": "nonlinear_height_increment",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "delta_R2",
+      "value": -0.005638
+    },
+    {
+      "metric": "height_by_sex_increment",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_nonlinear_sensitivity",
+      "source": "Stage7B-NL",
+      "unit": "delta_R2",
+      "value": -0.00567
+    },
+    {
+      "metric": "full_residual_dcor",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-NL",
+      "unit": "dCor",
+      "value": 0.167447
+    },
+    {
+      "metric": "height_residual_dcor",
+      "note": "",
+      "role": "sensitivity",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-NL",
+      "unit": "dCor",
+      "value": 0.180459
+    },
+    {
+      "metric": "full_pipeline_null_q95",
+      "note": "",
+      "role": "artifact_control",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-RD",
+      "unit": "dCor",
+      "value": 0.102055
+    },
+    {
+      "metric": "full_pipeline_holm_p",
+      "note": "",
+      "role": "artifact_control",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-RD",
+      "unit": "p",
+      "value": 0.002
+    },
+    {
+      "metric": "height_pipeline_null_q95",
+      "note": "",
+      "role": "artifact_control",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-RD",
+      "unit": "dCor",
+      "value": 0.132398
+    },
+    {
+      "metric": "height_pipeline_holm_p",
+      "note": "",
+      "role": "artifact_control",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-RD",
+      "unit": "p",
+      "value": 0.002
+    },
+    {
+      "metric": "full_within_fold_p",
+      "note": "",
+      "role": "artifact_control",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-RD",
+      "unit": "p",
+      "value": 0.001
+    },
+    {
+      "metric": "height_within_fold_p",
+      "note": "",
+      "role": "artifact_control",
+      "section": "constitutional_residual_dependence",
+      "source": "Stage7B-RD",
+      "unit": "p",
+      "value": 0.001
+    }
+  ],
+  "scientific_effect_analysis_added": false
+}

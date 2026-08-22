@@ -1,0 +1,13 @@
+WF-P SECOND LOCALIZED DIRECTION SPEC FREEZE
+===========================================
+Decision: WFP_SECOND_LOCALIZED_DIRECTION_SPEC_FREEZE_PASS
+Scientific role: EXPLORATORY POST-STAGE5B
+Frozen dimension: 8
+Search authorized: SECOND DIRECTION ONLY
+Third/higher directions authorized: NO
+Forced phase separation from first direction: NO
+Notch region prespecified: NO
+Clinical labels authorized: NO
+Waveform reprocessing authorized: NO
+Analysis script SHA256: aec8408e4e9a5c1c076ed601690f7fb0ce1028cce5fb94b9b83462be509aca98
+Frozen spec SHA256: 5febd41076f0878e2ed5a5a65d9d93f9314740454b6feec18717291c6003734c

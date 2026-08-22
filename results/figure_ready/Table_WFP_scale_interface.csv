@@ -1,0 +1,19 @@
+metric,value,unit
+Between-patient pairwise RMS,3.161452,B8 distance
+Between-patient pairwise median,2.453052,B8 distance
+Population-center radius RMS,2.234341,B8 distance
+Nearest-neighbor median,0.463522,B8 distance
+Nearest-neighbor q05,0.250757,B8 distance
+Nearest-neighbor q95,1.045233,B8 distance
+Within-patient equal-patient RMS,0.679064,B8 distance
+Patient within-RMS median,0.41661,B8 distance
+Block displacement median,0.313912,B8 distance
+Block displacement q95,1.338059,B8 distance
+Adjacent 60-s step median,0.190629,B8 distance
+Odd/even replicate RMS,0.138692,B8 distance
+Odd/even replicate median,0.062683,B8 distance
+Between / replicate,22.794746,ratio
+Within / between,0.214795,ratio
+Within / replicate,4.896195,ratio
+Patients with p95 block displacement >= nearest-neighbor,0.705521,fraction
+Patients with max block displacement >= nearest-neighbor,0.805726,fraction

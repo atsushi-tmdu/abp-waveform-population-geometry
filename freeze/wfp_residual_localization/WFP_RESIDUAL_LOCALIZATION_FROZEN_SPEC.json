@@ -1,0 +1,48 @@
+{
+  "analysis_script_sha256": "858a1b35b244f0aefb6f99e32474a70f487f135621003b30585e90f12c71bdd8",
+  "basis_change_authorized": false,
+  "block_rule": {
+    "block_sec": 60,
+    "min_accepted_beats_per_block": 32,
+    "min_even_blocks": 3,
+    "min_odd_blocks": 3,
+    "min_total_blocks": 6
+  },
+  "clinical_labels_authorized": false,
+  "coordinates_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "dimension_reselection_authorized": false,
+  "frozen_dimension": 8,
+  "localization_metrics": {
+    "effective_phase_support": "exp entropy of normalized 64-point phase-energy profile",
+    "fixed_non_circular_window_widths_points": [
+      4,
+      8,
+      16
+    ],
+    "max_phase": true
+  },
+  "notch_region_prespecified": false,
+  "notch_specific_testing_authorized": false,
+  "patient_scores_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "primary_phase_profile": "normalized diagonal of positive part of odd/even residual cross-covariance",
+  "projection": "Q8 = I - B8 B8^T",
+  "questions": [
+    "fraction of patient-central morphology variance outside frozen B8",
+    "odd/even reproducibility of residual morphology outside frozen B8",
+    "phase localization of positive reproducible residual energy",
+    "fraction and phase localization of short-window within-person residual morphology outside B8"
+  ],
+  "run1_script_sha256": "811775f50283a8f5d813d517f6c8c4bc3ed846fa994c3145eda96404ff04ee01",
+  "schema_version": 1,
+  "scientific_role": "post_discovery_descriptive_residual_localization_only",
+  "secondary_phase_profiles": [
+    "patient-central residual variance diagonal",
+    "raw odd/even residual auto-variance diagonal",
+    "equal-patient within-block residual covariance diagonal"
+  ],
+  "source": "Validation1000 discovery cohort; frozen eligibility reproduced exactly",
+  "stage": "6A",
+  "stage5_result_sha256": "18f696b67b942a86501435d7bdfe291f52ad0dcb1907b3f7f59fc2cc2cda0b05",
+  "status": "FROZEN_BEFORE_RESIDUAL_LOCALIZATION",
+  "work_package": "WF-P"
+}

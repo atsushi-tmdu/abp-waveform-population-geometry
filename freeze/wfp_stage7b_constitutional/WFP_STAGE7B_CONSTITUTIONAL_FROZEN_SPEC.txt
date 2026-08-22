@@ -1,0 +1,14 @@
+WF-P STAGE 7B CONSTITUTIONAL Q4/Q5 SPEC FREEZE
+================================================
+Decision: WFP_STAGE7B_CONSTITUTIONAL_SPEC_FREEZE_PASS
+Full cohort: 978
+Primary model: age + sex
+Primary metric: aggregate 5-fold patient OOF R2 for frozen B8
+Q5: OOF age+sex residual geometry
+Height: SECONDARY COMPLETE-CASE ONLY (n=693), NO IMPUTATION
+Conventional incremental check: YES
+Chronic phenotype mapping: DEFERRED TO STAGE 7C
+Frozen B8 changed: NO
+Ztrait/Zstate labels authorized: NO
+Analysis SHA256: e45780356e1b1e5b86e6d144d9ba16515c1093e08ca225c0d1d481b3b077da75
+Frozen spec SHA256: 2ecb80d82d4277ea7c01dafbe1cebf7c640b4de66dcf3421c9084d5dcc182bfd

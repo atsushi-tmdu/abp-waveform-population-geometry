@@ -1,0 +1,15 @@
+WF-P STAGE 7B-RD SPEC FREEZE
+============================
+Decision: WFP_STAGE7B_RD_SPEC_FREEZE_PASS
+Scientific role: POST-RESULT ARTIFACT ADJUDICATION
+Stage7B-NL dCor trigger observed before this freeze: YES
+Primary control: full pipeline-replay residual permutation
+Primary permutations: 999 per cohort
+Primary multiplicity: Holm across full978 and height693
+Secondary diagnostic: within-frozen-fold residual permutation
+Secondary permutations: 999 per cohort
+Variance/covariance model authorized: NO
+Stage7B / Stage7B-NL modification authorized: NO
+Ztrait/Zstate labels authorized: NO
+Analysis SHA256: a0d851c7b76a47cf645859a5c64ba72f8edb8afa769857587a853521cf614610
+Frozen spec SHA256: 0a0ce70a81b2f4efe7645997df92609574373ef023a408ad8da0d81a053bc0c8

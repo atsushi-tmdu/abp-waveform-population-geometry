@@ -1,0 +1,14 @@
+WF-P STAGE 7C ASSOCIATION SPEC FREEZE
+=====================================
+Decision: WFP_STAGE7C_ASSOCIATION_SPEC_FREEZE_PASS
+Analysis n: 887 exact-current-admission patients
+Phenotype family: 8 prespecified Quan-Elixhauser-style groups
+Primary baseline: age + sex + level + log(scale) + log(duration)
+Primary effect: joint phenotype-block incremental OOF R2
+Global phenotype tests: 8 only; 2000 residual permutations; BH-FDR 0.05
+Axis-specific coefficients: DESCRIPTIVE ONLY
+Frozen B8 changed: NO
+Disease-specific subspace learning: NO
+Prior-history analysis: DEFERRED
+Analysis SHA256: d3cd5397f456e864ea380bf6e0b4e85040f5fe7fba12aac70971d437957eb636
+Frozen spec SHA256: 77e96fa533fc991e2890885ece156696532681458358faad728249df3dc7471a

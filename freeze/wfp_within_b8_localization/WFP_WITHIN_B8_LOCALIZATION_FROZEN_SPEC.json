@@ -1,0 +1,41 @@
+{
+  "analysis_script_sha256": "53b631bc682a3018caafc6086cdfa63dac6759ac7a6a007fb3026adf1dd3e0dd",
+  "basis_change_authorized": false,
+  "clinical_labels_authorized": false,
+  "coordinates_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "dimension_reselection_authorized": false,
+  "frozen_dimension": 8,
+  "notch_region_prespecified": false,
+  "notch_specific_testing_authorized": false,
+  "patient_scores_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "primary_analysis": {
+    "metrics": [
+      "shape",
+      "slope",
+      "curvature"
+    ],
+    "optimization": "maximum fraction of total operator energy within each window",
+    "scope": "all directions in frozen B8",
+    "window_scan": "all non-circular contiguous windows on the relevant operator grid",
+    "window_widths_points": [
+      4,
+      8,
+      16
+    ]
+  },
+  "schema_version": 1,
+  "scientific_role": "post_discovery_descriptive_geometry_only",
+  "stage": "5B",
+  "stage5_result_sha256": "18f696b67b942a86501435d7bdfe291f52ad0dcb1907b3f7f59fc2cc2cda0b05",
+  "status": "FROZEN_BEFORE_WITHIN_B8_LOCALIZATION",
+  "targeted_axis5_6_check": {
+    "pair": [
+      5,
+      6
+    ],
+    "rule": "evaluate Axis5-6 span at the SAME windows selected by full-B8 analysis and rank it against all 28 axis pairs",
+    "status": "EXPLORATORY_POST_STAGE5_VISUAL_HYPOTHESIS"
+  },
+  "waveform_reprocessing_authorized": false,
+  "work_package": "WF-P"
+}

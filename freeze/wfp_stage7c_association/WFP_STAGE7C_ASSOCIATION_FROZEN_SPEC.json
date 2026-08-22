@@ -1,0 +1,65 @@
+{
+  "age_form": "linear",
+  "analysis_n": 887,
+  "analysis_script_sha256": "d3cd5397f456e864ea380bf6e0b4e85040f5fe7fba12aac70971d437957eb636",
+  "axis_specific_coefficients": "DESCRIPTIVE_ONLY_NO_64_TEST_FAMILY",
+  "fold_rule": "sha256('20260820:<patient_id>') mod 5",
+  "forbidden": [
+    "relearning or rotating B8",
+    "disease-specific subspace learning",
+    "post-result phenotype family expansion",
+    "axis-specific multiplicity fishing",
+    "causal interpretation",
+    "pre-waveform-known interpretation of current-admission codes",
+    "Ztrait/Zstate labeling"
+  ],
+  "global_test": {
+    "FDR_level": 0.05,
+    "family_size": 8,
+    "multiplicity": "Benjamini-Hochberg FDR",
+    "permutation": "reduced-model residual permutation",
+    "permutations": 2000,
+    "plus_one_p": true,
+    "seed_namespace": 20260823,
+    "statistic": "partial multivariate SSE improvement"
+  },
+  "height_primary_adjustment": false,
+  "phenotype_family": [
+    "congestive_heart_failure",
+    "cardiac_arrhythmias",
+    "valvular_disease",
+    "peripheral_vascular_disease",
+    "hypertension",
+    "diabetes",
+    "renal_failure",
+    "chronic_pulmonary_disease"
+  ],
+  "phenotype_preflight_sha256": "6ef263516a81dd8419831059111068f5e89d9242f1f5a3fa102d6f29992a6ef8",
+  "phenotype_private_sha256": "96b90fbcc91a1bf9133856cfb8e5f0b94d61183c3d5ce9cebb96cbf879dda2c9",
+  "phenotype_specific_effects": [
+    "marginal delta OOF R2 vs baseline",
+    "unique delta OOF R2 within joint phenotype block",
+    "joint-model adjusted B8 coefficient-vector norm",
+    "coefficient norm normalized by pre-frozen between/within/NN scales"
+  ],
+  "phenotypes_entered_jointly": true,
+  "primary_baseline": [
+    "age_years_capped90",
+    "sex",
+    "level_mmhg",
+    "log_scale_sd",
+    "log_duration_sec"
+  ],
+  "primary_effect": "joint 8-phenotype model aggregate OOF R2 minus baseline aggregate OOF R2",
+  "prior_history_analysis": "DEFERRED_NOT_PRIMARY",
+  "scale_results_sha256": "5acd6c415911d3bdfb8a221f1a99002bea1049c7f3bf75b2c49552ae07f749cd",
+  "schema_version": 1,
+  "scientific_role": "post_discovery_cross_sectional_phenotype_mapping",
+  "score_file_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "stage": "7C",
+  "stage7b_results_sha256": "8eb4f95cb9cd0c8398559b16afc3daef1f8fd010a02a9eabb4065045d1f37e09",
+  "status": "FROZEN_BEFORE_STAGE7C_ASSOCIATION",
+  "temporal_linkage_sha256": "ac06c23daf3dba2336856846abef987afe264e14b5b8d0354723da7e75dd006d",
+  "wfp0_factor_sha256": "edd94d8d0e3287ad977268f820aeb57f7d87cda405aafcae206777ec3f05aea7",
+  "work_package": "WF-P"
+}

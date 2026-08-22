@@ -1,0 +1,15 @@
+WF-P DISCOVERY OUTPUT LOCK
+==========================
+Decision: WFP_DISCOVERY_OUTPUT_LOCK_PASS
+Waveform arrays opened: NO
+New scientific effects calculated: NO
+Source n: 1000
+Analysable n: 978
+Selected common-basis dimension: 8
+Frozen discovery spec SHA256: 0aa1944f715d46d78e4c11b72d9086a34605f5770071c823fd2ebf9e6eb787b7
+Discovery analysis script SHA256: a928ae3c3a81ebf9ba662cbde819d4384c7c8b13d96565ce29f32e4315d1c4ca
+Output lock SHA256: 8a5e7c054ae900d49896b720a6d5d6490e21d7196795586563c2d2a3ee8665e6
+
+Boundary:
+  Discovery status remains DISCOVERY / DERIVATION ONLY.
+  Clinical labels remain unopened.

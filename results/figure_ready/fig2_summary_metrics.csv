@@ -1,0 +1,9 @@
+metric,value,unit,role,source,note
+effective_rank,5.781627871619092,dimensionless,authoritative,discovery,
+d90,6.0,dimensions,authoritative,discovery,
+d95,8.0,dimensions,authoritative,discovery,
+selected_B8_dimension,8.0,dimensions,authoritative,discovery,
+cv_r2_all,0.9640442363855232,R2,authoritative,discovery,
+half_split_overlap_median,0.9776711907405063,overlap,authoritative,discovery,
+within_variance_captured_by_between_basis,0.923147689991933,fraction,authoritative,discovery,
+between_within_projector_overlap,0.945114847275724,overlap,authoritative,discovery,

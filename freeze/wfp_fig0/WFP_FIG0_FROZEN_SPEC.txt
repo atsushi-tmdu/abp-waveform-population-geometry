@@ -1,0 +1,10 @@
+WF-P FIG0 SPEC FREEZE
+=====================
+Decision: WFP_FIG0_SPEC_FREEZE_PASS
+Scientific role: FIGURE-READY EXPORT ONLY
+Main figure scope: 1-4
+New scientific effects authorized: NO
+Frozen B8 changed authorized: NO
+Supplementary export authorized: NO
+Export script SHA256: 435a2d3e2fb0cde3abccb4a9f0becc303364d6d8ca2d031f7880a9fc982c2e5a
+Frozen spec SHA256: dd93da036d2cdb86f0451025c2aad1e6d1c1750cd4fe42d7da8cecf029b5c7d0

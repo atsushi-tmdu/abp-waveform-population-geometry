@@ -1,0 +1,33 @@
+{
+  "analysis_script_sha256": "d51164268d1064e30ef44f56b5c24732e36eb93f4721fb007d0777f49f2de182",
+  "axis_reliability_sha256": "89856ada14e11bb4350f3b0db91d75d47a3d31fd41e66783b2210363938b9d64",
+  "basis_change_authorized": false,
+  "clinical_labels_authorized": false,
+  "coordinates_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "dimension": 8,
+  "dimension_reselection_authorized": false,
+  "discovery_script_sha256": "a928ae3c3a81ebf9ba662cbde819d4384c7c8b13d96565ce29f32e4315d1c4ca",
+  "display_rule": "population mean +/- 1 empirical population score SD along each frozen axis; no post-displacement renormalization",
+  "fourier_rule": "project each frozen axis onto the exact fixed Fourier d=8 subspace used in Stage 3",
+  "geometry_audit_sha256": "74a402429fb923b1389017907b197dd366011ef271d54eccef75af50ae273c88",
+  "outputs": [
+    "axis-wise score scale and reliability table",
+    "axis-wise Fourier d=8 energy fraction",
+    "axis morphology curves",
+    "Fourier component and non-Fourier residual vectors",
+    "descriptive figures"
+  ],
+  "patient_scores_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "physiological_axis_naming_authorized": false,
+  "questions": [
+    "What waveform deformation is represented by each already-frozen WF-P axis?",
+    "How much of each frozen axis lies in the same fixed Fourier d=8 comparator subspace?",
+    "What non-Fourier residual remains for each frozen axis?"
+  ],
+  "schema_version": 1,
+  "scientific_role": "descriptive_characterization_of_frozen_discovery_basis",
+  "stage": 5,
+  "status": "FROZEN_BEFORE_AXIS_CHARACTERIZATION",
+  "waveform_reprocessing_authorized": false,
+  "work_package": "WF-P"
+}

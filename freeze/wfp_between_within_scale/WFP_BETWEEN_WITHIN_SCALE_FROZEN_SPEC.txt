@@ -1,0 +1,12 @@
+WF-P BETWEEN–WITHIN SCALE AUDIT SPEC FREEZE
+===========================================
+Decision: WFP_BETWEEN_WITHIN_SCALE_SPEC_FREEZE_PASS
+Expected patients: 978
+Frozen B8 dimension: 8
+Primary distance: raw Euclidean distance in frozen B8
+Clinical labels authorized: NO
+B8 relearning/reselection authorized: NO
+Automatic scientific gate: NONE
+Ztrait/Zstate labels authorized: NO
+Analysis SHA256: cbcd5f5601c11c3887dcae33ba825f9a0c3f47b6e6fb15acb08bb8a81924d3e7
+Frozen spec SHA256: dc4ed1961dd83545035f1cab2d188f804d813d29b168a5048c9ce64b0d3a3caf

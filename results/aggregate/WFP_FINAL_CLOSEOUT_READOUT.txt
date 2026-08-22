@@ -1,0 +1,17 @@
+WF-P FINAL SCIENTIFIC CLOSEOUT
+==============================
+Decision: WFP_FINAL_CLOSEOUT_COMPLETE
+New scientific effects calculated: NO
+Frozen B8 changed: NO
+Authoritative metrics written: 50
+Source files hashed: 17
+
+Constitutional interpretation:
+  OOF conditional-mean predictability is weak across frozen linear and
+  separate low-df nonlinear/limited-interaction sensitivities.
+  Residual multivariate dependence persists after pipeline/fold controls.
+  Therefore independence / full orthogonality is NOT claimed.
+
+Next authorized work:
+  Figure-ready data export and plotting from the closed result set.
+  No additional WF-P scientific-effect analysis.

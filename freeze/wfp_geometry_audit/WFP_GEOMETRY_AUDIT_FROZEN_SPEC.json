@@ -1,0 +1,23 @@
+{
+  "basis_replacement_authorized": false,
+  "clinical_labels_authorized": false,
+  "dimension": 8,
+  "dimension_reselection_authorized": false,
+  "discovery_output_lock_sha256": "8a5e7c054ae900d49896b720a6d5d6490e21d7196795586563c2d2a3ee8665e6",
+  "geometry_script_sha256": "5b92d573f334679f2afd59962b99de88882b1d7e860f3bf625c631357fbbfee7",
+  "metrics": [
+    "projector overlap",
+    "principal angles",
+    "full-sample variance capture for replicate/PCA",
+    "held-out CV R2 differences"
+  ],
+  "questions": [
+    "replicate-corrected d=8 versus ordinary patient-mean PCA d=8 subspace geometry",
+    "replicate-corrected d=8 versus fixed Fourier d=8 subspace geometry",
+    "report already-prespecified held-out CV R2 differences at d=8"
+  ],
+  "schema_version": 1,
+  "stage": "4B",
+  "status": "FROZEN_BEFORE_GEOMETRY_COMPARATOR_AUDIT",
+  "work_package": "WF-P"
+}

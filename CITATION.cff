@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this release, please cite the archived software/research release. Please also cite the accompanying manuscript when available."
+title: "WF-P: Population Geometry of Arterial Blood Pressure Waveform Morphology"
+type: software
+authors:
+  - family-names: "Senda"
+    given-names: "Atsushi"
+    orcid: "https://orcid.org/0000-0002-0128-6800"
+abstract: "Release-safe code, frozen aggregate outputs, and a versioned B8 interface for a patient-balanced, replicate-stable population geometry of arterial blood pressure waveform morphology."
+keywords:
+  - "arterial blood pressure"
+  - "waveform morphology"
+  - "population geometry"
+  - "principal components"
+  - "reproducible research"
+repository-code: "https://github.com/atsushi-tmdu/abp-waveform-population-geometry"
+url: "https://github.com/atsushi-tmdu/abp-waveform-population-geometry"
+version: "1.0.0"

@@ -1,0 +1,27 @@
+{
+  "axis_reliability_sha256": "89856ada14e11bb4350f3b0db91d75d47a3d31fd41e66783b2210363938b9d64",
+  "closeout_readout_sha256": "0c94db13e91d5b351b9b33b61b00b27ca8480c25cd5a83c0cffefa359cbf12f5",
+  "closeout_summary_sha256": "197f229c3c7400208d7ca92bb5da618d7b95c0c09bc621966ac0e70af50054ae",
+  "discovery_curve_sha256": "83a3b921962a26617bc9aa7a9a7d09fb3b9b937e9e23ea3030f1079752a52ba9",
+  "export_script_sha256": "435a2d3e2fb0cde3abccb4a9f0becc303364d6d8ca2d031f7880a9fc982c2e5a",
+  "figure_manifest_sha256": "cd4ce2fc6423d9a4f97aac10b011c583df0cb0c47b1c7db619c18f7632e57297",
+  "figure_scope": {
+    "main_figures": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "supplementary_scope_authorized": false
+  },
+  "fourier_curve_sha256": "988512ce1ba40b2a712eedf571dbd7dbc3a82e555220a9a3f8d51d366a2a74b7",
+  "frozen_B8_change_authorized": false,
+  "new_scientific_effects_authorized": false,
+  "patient_scores_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "plotting_rule": "No scientific metric may be recomputed differently during plotting.",
+  "schema_version": 1,
+  "scientific_role": "figure_ready_export_only",
+  "stage": "FIG0",
+  "status": "FROZEN_BEFORE_FIGURE_READY_EXPORT",
+  "work_package": "WF-P"
+}

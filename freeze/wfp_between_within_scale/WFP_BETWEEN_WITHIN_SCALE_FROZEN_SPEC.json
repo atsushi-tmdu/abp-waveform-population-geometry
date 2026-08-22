@@ -1,0 +1,14 @@
+{
+  "B8_relearning_authorized": false,
+  "analysis_script_sha256": "cbcd5f5601c11c3887dcae33ba825f9a0c3f47b6e6fb15acb08bb8a81924d3e7",
+  "authoritative_run1_sha256": "811775f50283a8f5d813d517f6c8c4bc3ed846fa994c3145eda96404ff04ee01",
+  "automatic_gate": "NONE_DESCRIPTIVE_SCALE_AUDIT",
+  "clinical_labels_authorized": false,
+  "coordinate_file_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "dimension": 8,
+  "discovery_result_sha256": "add722739ecb5d65ee7fc2723e599400deecadd36e7c7325e7151fc5e6737ffe",
+  "expected_n": 978,
+  "primary_distance": "raw Euclidean distance in frozen B8",
+  "score_file_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "status": "FROZEN_BEFORE_BETWEEN_WITHIN_SCALE_AUDIT"
+}

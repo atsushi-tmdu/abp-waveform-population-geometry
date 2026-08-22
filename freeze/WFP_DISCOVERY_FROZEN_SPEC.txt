@@ -1,0 +1,12 @@
+WF-P DISCOVERY SPECIFICATION FREEZE
+==================================
+Decision: WFP_DISCOVERY_SPEC_FREEZE_PASS
+Source cohort: Validation1000
+Scientific role: DISCOVERY_DERIVATION_ONLY
+Min accepted beats/block: 32
+Patient eligibility: total>=6, odd>=3, even>=3
+Primary operator: symmetric odd/even replicate cross-covariance
+Clinical labels authorized: NO
+Independent confirmatory validation: NO
+Analysis script SHA256: a928ae3c3a81ebf9ba662cbde819d4384c7c8b13d96565ce29f32e4315d1c4ca
+Frozen spec SHA256: 0aa1944f715d46d78e4c11b72d9086a34605f5770071c823fd2ebf9e6eb787b7

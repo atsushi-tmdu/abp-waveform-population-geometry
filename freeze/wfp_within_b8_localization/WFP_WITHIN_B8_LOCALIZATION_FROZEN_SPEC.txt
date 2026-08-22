@@ -1,0 +1,14 @@
+WF-P WITHIN-B8 LOCALIZATION SPEC FREEZE
+=======================================
+Decision: WFP_WITHIN_B8_LOCALIZATION_SPEC_FREEZE_PASS
+Frozen dimension: 8
+Primary scope: ALL B8 DIRECTIONS
+Metrics: shape, slope, curvature
+Window widths: 4, 8, 16 points
+Axis 5-6 check: EXPLORATORY / POST-STAGE5 VISUAL HYPOTHESIS
+Notch region prespecified: NO
+Waveform reprocessing authorized: NO
+Clinical labels authorized: NO
+Basis change authorized: NO
+Analysis script SHA256: 53b631bc682a3018caafc6086cdfa63dac6759ac7a6a007fb3026adf1dd3e0dd
+Frozen spec SHA256: 638a89da10c71f4c3c07e56a6e9352fcd6f1a6ae21ef45df343f392a6883185b

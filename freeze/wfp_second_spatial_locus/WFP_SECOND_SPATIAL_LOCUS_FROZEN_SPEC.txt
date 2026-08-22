@@ -1,0 +1,13 @@
+WF-P SECOND SPATIAL LOCUS SPEC FREEZE
+=====================================
+Decision: WFP_SECOND_SPATIAL_LOCUS_SPEC_FREEZE_PASS
+Scientific role: EXPLORATORY POST-STAGE5C
+Frozen dimension: 8
+Search authorized: SECOND SPATIAL LOCUS ONLY
+Third spatial locus authorized: NO
+Spatial exclusion: first window + half-window guard on each side
+Notch region prespecified: NO
+Clinical labels authorized: NO
+Waveform reprocessing authorized: NO
+Analysis script SHA256: 21ebef6b1776f9ccb493aeec585ff103fb3a7994263de0c5f75e9622b7c22453
+Frozen spec SHA256: ba4b2db797f904063c4995044d2d8a3c8b869bff1324292b86b7467bd67c2f55

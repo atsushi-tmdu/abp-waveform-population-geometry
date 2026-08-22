@@ -1,0 +1,11 @@
+WF-P AXIS CHARACTERIZATION SPEC FREEZE
+======================================
+Decision: WFP_AXIS_CHARACTERIZATION_SPEC_FREEZE_PASS
+Dimension: 8
+Waveform reprocessing authorized: NO
+Clinical labels authorized: NO
+Dimension reselection authorized: NO
+Basis change authorized: NO
+Physiological axis naming authorized: NO
+Analysis script SHA256: d51164268d1064e30ef44f56b5c24732e36eb93f4721fb007d0777f49f2de182
+Frozen spec SHA256: cd176b5f779114e96c27c9ea72a1da98c2575ef82e14625aedf2cea47f623448

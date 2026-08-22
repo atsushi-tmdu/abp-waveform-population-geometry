@@ -1,0 +1,58 @@
+{
+  "analysis_script_sha256": "a0d851c7b76a47cf645859a5c64ba72f8edb8afa769857587a853521cf614610",
+  "forbidden": [
+    "modifying Stage7B",
+    "modifying Stage7B-NL",
+    "changing B8",
+    "new nonlinear mean model",
+    "variance regression",
+    "covariance regression",
+    "distributional model search",
+    "subgroup exploration",
+    "disease/treatment/outcome access",
+    "Ztrait/Zstate labeling"
+  ],
+  "height_preflight_sha256": "70361c36e741f268c7a5e401653ed44452452db55dfe3fe3d8491cc322828764",
+  "observed_dcor_to_replay": {
+    "full978": 0.167447,
+    "height693": 0.180459
+  },
+  "primary_control": {
+    "full_model": "age+sex",
+    "height_model": "age+sex+height_median_cm",
+    "multiplicity": "Holm across full978 and height693 primary pipeline controls",
+    "name": "pipeline-replay residual-permutation null",
+    "null_assumption": "residual-vector exchangeability under the artifact-control null",
+    "permutations": 999,
+    "plus_one_p": true,
+    "seed_namespace": 20260825,
+    "steps": [
+      "fit full-sample linear constitutional mean",
+      "permute complete 8-D residual vectors across patients",
+      "add permuted residuals to fitted linear mean",
+      "rerun complete frozen 5-fold OOF linear prediction",
+      "recompute OOF residuals",
+      "recompute residual dCor"
+    ]
+  },
+  "primary_question": "Could OOF residualization / finite-sample fitting generate the observed residual dCor?",
+  "schema_version": 1,
+  "scientific_role": "post_stage7b_nl_residual_dependence_artifact_adjudication",
+  "score_file_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "secondary_control": {
+    "formal_primary_gate": false,
+    "name": "within-frozen-fold residual-vector permutation",
+    "permutations": 999,
+    "plus_one_p": true,
+    "purpose": "preserve fold-level residual distributions and X imbalance"
+  },
+  "stage": "7B-RD",
+  "stage7b_nl_readout_sha256": "d866068b180155f53ae41285196ca312443eb502e0071f508d1635488425300f",
+  "stage7b_nl_results_sha256": "e12dc397b1637ac9a2021b29e6d982ad7a97ddaba90f20d1ede653d6ada47730",
+  "stage7b_nl_spec_sha256": "cb09d743e388bc04447f51c303160f0811c1319bae296644e6a19ce79d7a253c",
+  "status": "FROZEN_BEFORE_STAGE7B_RD_ADJUDICATION",
+  "temporal_linkage_sha256": "ac06c23daf3dba2336856846abef987afe264e14b5b8d0354723da7e75dd006d",
+  "trigger": "Stage7B-NL residual distance-correlation signal",
+  "trigger_observed_before_RD_freeze": true,
+  "work_package": "WF-P"
+}

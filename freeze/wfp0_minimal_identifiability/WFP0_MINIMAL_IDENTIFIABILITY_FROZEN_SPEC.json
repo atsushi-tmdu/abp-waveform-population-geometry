@@ -1,0 +1,44 @@
+{
+  "WFP2_covariate_association_authorized": false,
+  "analysis_script_sha256": "536b8192bd5846cecd2ada40d110cb2d30aad1dc4b120631702082f0c4cf3be1",
+  "authoritative_run1_sha256": "811775f50283a8f5d813d517f6c8c4bc3ed846fa994c3145eda96404ff04ee01",
+  "boundary": [
+    "Existing WF1/WF2/WF-P1 results unchanged",
+    "Audit is post-discovery",
+    "Recoverability is coupling, not automatic artifact",
+    "Extended normalization audit only if frozen rule requests it"
+  ],
+  "clinical_covariates_authorized": false,
+  "coordinate_file_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "cv": {
+    "fold_rule": "sha256('20260820:<patient_id>') mod 5",
+    "folds": 5,
+    "model": "OLS with intercept"
+  },
+  "discovery_result_sha256": "add722739ecb5d65ee7fc2723e599400deecadd36e7c7325e7151fc5e6737ffe",
+  "expected_n": 978,
+  "extended_WFP0_automatically_authorized": false,
+  "frozen_B8_dimension": 8,
+  "frozen_B8_relearning_authorized": false,
+  "operational_rule": {
+    "R2_0.30_to_lt_0.60": "MODIFY_AND_EXTENDED_WFP0",
+    "R2_ge_0.60": "STRONG_COUPLING_EXTENDED_WFP0",
+    "R2_lt_0.30": "GO"
+  },
+  "patient_scalar_rule": {
+    "block": "median accepted beats within eligible 60-s block",
+    "patient": "mean eligible block scalars"
+  },
+  "primary_estimand": "aggregate OOF R2 of frozen B8 scores from level+log(scale)+log(duration)",
+  "primary_factor_set": [
+    "level_mmhg",
+    "log_scale_sd",
+    "log_duration_sec"
+  ],
+  "schema_version": 1,
+  "scientific_role": "post_discovery_representation_identifiability_frozen_before_WFP2",
+  "score_file_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "status": "FROZEN_BEFORE_WFP0_MINIMAL_AUDIT",
+  "strong_recoverability_flag": "B8 -> conventional target CV R2 >= 0.50; coupling only",
+  "work_package": "WF-P0"
+}

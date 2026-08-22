@@ -1,0 +1,35 @@
+{
+  "analysis_script_sha256": "aec8408e4e9a5c1c076ed601690f7fb0ce1028cce5fb94b9b83462be509aca98",
+  "basis_change_authorized": false,
+  "clinical_labels_authorized": false,
+  "coordinates_sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+  "dimension_reselection_authorized": false,
+  "first_direction_source": "fixed Stage5B full-B8 optimum separately for each metric/window width",
+  "frozen_dimension": 8,
+  "metrics": [
+    "shape",
+    "slope",
+    "curvature"
+  ],
+  "notch_region_prespecified": false,
+  "notch_specific_testing_authorized": false,
+  "patient_scores_sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+  "rationale": "Stage 5B first localized direction concentrated near upstroke/peak; inspect exactly one independent second direction before outside-B8 residual analysis",
+  "schema_version": 1,
+  "scientific_role": "explicitly_exploratory_post_stage5b_characterization",
+  "second_direction_constraint": "c^T c1 = 0 in frozen B8 coefficient space; because B8 is orthonormal this is shape-L2 orthogonality",
+  "stage": "5C",
+  "stage5b_best_windows_sha256": "12e32d24895edbf7eeeaafe089828e96d55e32932c03dfb5ace801f4a071d965",
+  "stage5b_first_directions_sha256": "6ff47cd494620b1016f1866c62718bc4583610d21fc4dce9671ec87be82e7440",
+  "stage5b_result_sha256": "c4cc55f44dce40e2734840dab0c7ec4ca4dc82b4f7e77b9c1317fb365761f431",
+  "status": "FROZEN_BEFORE_SECOND_LOCALIZED_DIRECTION",
+  "third_or_higher_direction_search_authorized": false,
+  "waveform_reprocessing_authorized": false,
+  "window_scan": "all non-circular contiguous windows; no forced spatial separation from first window",
+  "window_widths_points": [
+    4,
+    8,
+    16
+  ],
+  "work_package": "WF-P"
+}

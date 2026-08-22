@@ -1,0 +1,9 @@
+phenotype,exposed_n,marginal_delta_oof_r2,unique_delta_oof_r2,adjusted_shift_norm,shift_over_between_rms,shift_over_within_rms,permutation_p,BH_q,FDR05
+congestive_heart_failure,238,6.3e-05,-0.001355,0.222186,0.0703,0.3272,0.115442,0.296852,False
+cardiac_arrhythmias,356,0.000924,-0.000152,0.263054,0.0832,0.3874,0.0134933,0.107946,False
+valvular_disease,111,-0.001164,-0.001381,0.335748,0.1062,0.4944,0.0454773,0.181909,False
+peripheral_vascular_disease,69,-0.001629,-0.002233,0.27123,0.0858,0.3994,0.354323,0.46491,False
+hypertension,522,-0.001283,-0.001319,0.11802,0.0373,0.1738,0.652174,0.652174,False
+diabetes,255,0.000817,0.000433,0.199178,0.063,0.2933,0.148426,0.296852,False
+renal_failure,138,-9.5e-05,-0.001084,0.231558,0.0732,0.341,0.236382,0.378211,False
+chronic_pulmonary_disease,212,-0.002466,-0.002082,0.161457,0.0511,0.2378,0.406797,0.46491,False

@@ -1,0 +1,72 @@
+{
+  "analysable_n": 978,
+  "boundary": [
+    "This lock preserves the completed Validation1000 discovery state.",
+    "It does not convert discovery evidence into confirmatory validation.",
+    "Clinical labels remain unopened for WF-P."
+  ],
+  "checks": {
+    "age_sex_false": true,
+    "analysable_n_978": true,
+    "clinical_labels_false": true,
+    "confirmatory_false": true,
+    "decision_common_basis_identified": true,
+    "frozen_exclusions_n_22": true,
+    "scientific_role_discovery": true,
+    "selected_dimension_8": true,
+    "source_n_1000": true
+  },
+  "decision": "WFP_DISCOVERY_OUTPUT_LOCK_PASS",
+  "discovery_analysis_script_sha256": "a928ae3c3a81ebf9ba662cbde819d4384c7c8b13d96565ce29f32e4315d1c4ca",
+  "frozen_discovery_spec_sha256": "0aa1944f715d46d78e4c11b72d9086a34605f5770071c823fd2ebf9e6eb787b7",
+  "new_scientific_effects_calculated": false,
+  "output_manifest": [
+    {
+      "name": "WFP_DISCOVERY_RESULTS.json",
+      "sha256": "add722739ecb5d65ee7fc2723e599400deecadd36e7c7325e7151fc5e6737ffe",
+      "size_bytes": 6488
+    },
+    {
+      "name": "WFP_DISCOVERY_READOUT.txt",
+      "sha256": "dba8572378660fb16228a9b0d74f563bb9236ca5f0aaca5c81ced6c69cb58780",
+      "size_bytes": 1109
+    },
+    {
+      "name": "WFP_DISCOVERY_COMMON_COORDINATES.npz",
+      "sha256": "3d10f43d42bf8db1a5c03d5dd2c044ce1f5e8f567d8f4fa766250ab5137d616e",
+      "size_bytes": 26334
+    },
+    {
+      "name": "wfp_cv_reconstruction_curve.csv",
+      "sha256": "83a3b921962a26617bc9aa7a9a7d09fb3b9b937e9e23ea3030f1079752a52ba9",
+      "size_bytes": 1997
+    },
+    {
+      "name": "wfp_fourier_comparator_curve.csv",
+      "sha256": "988512ce1ba40b2a712eedf571dbd7dbc3a82e555220a9a3f8d51d366a2a74b7",
+      "size_bytes": 288
+    },
+    {
+      "name": "wfp_axis_reliability.csv",
+      "sha256": "89856ada14e11bb4350f3b0db91d75d47a3d31fd41e66783b2210363938b9d64",
+      "size_bytes": 521
+    },
+    {
+      "name": "wfp_population_eigenspectra.csv",
+      "sha256": "5f0dd33d7e5d4509213ebce58b5b43bb74b7fb5d5737beda3f98ee9f8a3dcc30",
+      "size_bytes": 3045
+    },
+    {
+      "name": "wfp_patient_scores_DISCOVERY_PRIVATE.csv",
+      "sha256": "3995a74586c7a76e1e79316864e05089f26c51128cf2d738a8f6301939bfc9c7",
+      "size_bytes": 184732
+    }
+  ],
+  "schema_version": 1,
+  "scientific_role": "post_discovery_integrity_lock",
+  "selected_common_basis_dimension": 8,
+  "source_n": 1000,
+  "stage": "4A",
+  "waveform_arrays_opened": false,
+  "work_package": "WF-P"
+}

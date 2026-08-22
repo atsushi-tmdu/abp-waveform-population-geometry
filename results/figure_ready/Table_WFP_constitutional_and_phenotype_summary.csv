@@ -1,0 +1,20 @@
+stage,estimand,value,unit,note
+WFP0,Conventional factors -> B8,0.136957,OOF R2,level + log(scale) + log(duration)
+Stage7B,Age + sex -> B8,0.029482,OOF R2,primary linear constitutional model
+Stage7B,Residual trace after age + sex,0.970517,fraction,linear conditioning only
+Stage7B,Age + age^2 + sex,0.026249,OOF R2,quadratic sensitivity
+Stage7B,Height increment beyond age + sex,-0.001292,delta OOF R2,complete-case n=693
+Stage7B-NL,RCS age increment M1-M0,-0.006409,delta OOF R2,4-knot RCS
+Stage7B-NL,RCS age-by-sex total M2-M0,-0.010637,delta OOF R2,limited interaction
+Stage7B-NL,Nonlinear height increment H2-H1h,-0.005638,delta OOF R2,complete-case n=693
+Stage7B-NL,Height-by-sex increment H3-H2,-0.00567,delta OOF R2,1-df secondary interaction
+Stage7B-NL,Full residual dCor,0.167447,distance correlation,OOF-linear residuals
+Stage7B-RD,Full pipeline-null q95,0.102055,distance correlation,999 pipeline replays
+Stage7B-RD,Full pipeline-control Holm p,0.002,p value,artifact-control sensitivity
+Stage7B-NL,Height-subset residual dCor,0.180459,distance correlation,n=693
+Stage7B-RD,Height pipeline-null q95,0.132398,distance correlation,999 pipeline replays
+Stage7B-RD,Height pipeline-control Holm p,0.002,p value,artifact-control sensitivity
+Stage7C,Baseline OOF R2,0.182252,OOF R2,age/sex + conventional factors
+Stage7C,Joint 8-phenotype OOF R2,0.17505,OOF R2,exact admission n=887
+Stage7C,Phenotype block incremental OOF R2,-0.007202,delta OOF R2,8 phenotypes jointly
+Stage7C,FDR-significant global phenotypes,0,count,BH-FDR 0.05
