@@ -1,5 +1,9 @@
 # WF-P: Population Geometry of Arterial Blood Pressure Waveform Morphology
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22055195.svg)](https://doi.org/10.5281/zenodo.22055195)
+
+
+
 **Release status:** pre-WF3 public freeze, version 1.0.0.
 
 WF-P asks whether low-dimensional arterial blood pressure (ABP) morphology
@@ -141,5 +145,7 @@ Citation metadata are provided in `CITATION.cff`.
 
 GitHub repository: https://github.com/atsushi-tmdu/abp-waveform-population-geometry
 
-A version-specific Zenodo DOI should be added only after an exact tagged GitHub
-release is archived.
+Archived release:
+
+- Version 1.0.0 DOI: `10.5281/zenodo.22055195`
+- Concept DOI (all versions): `10.5281/zenodo.22055194`

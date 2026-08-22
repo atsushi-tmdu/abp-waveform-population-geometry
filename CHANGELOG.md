@@ -4,6 +4,8 @@
 
 Initial public WF-P release.
 
+Archived release DOI: `10.5281/zenodo.22055195`.
+
 ### Included
 
 - frozen discovery/derivation scientific code and release-safe specifications;

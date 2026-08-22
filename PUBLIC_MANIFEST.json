@@ -6,14 +6,14 @@
       "sha256": "17f53c9f3f500dffd953a9fef6b53662843e8345bb8d458f775dca9e539cd843"
     },
     {
-      "bytes": 821,
+      "bytes": 871,
       "file": "CHANGELOG.md",
-      "sha256": "135a3247215746bad483156b9ad4fc6653b7880d0338959a9fab69cac467dfc9"
+      "sha256": "d096d4c1a79e32333b4d8074c56fba9ef1bc43b221e41e7ffe36c422cc3fceba"
     },
     {
-      "bytes": 921,
+      "bytes": 952,
       "file": "CITATION.cff",
-      "sha256": "8aab551f48a35c932aa3ca1bbe5fe52b0e928e1fce6f7a64fb5f22714f49644c"
+      "sha256": "982ace4b36b4df9a916932386336637e1463cf3609ef0fa4fc3196adbb21f2ea"
     },
     {
       "bytes": 453,
@@ -31,9 +31,9 @@
       "sha256": "7c35989734ad4299eb677b49ca0c959bc3481e1b0dc7e32f38698fda86bc304f"
     },
     {
-      "bytes": 5090,
+      "bytes": 5222,
       "file": "README.md",
-      "sha256": "c620241ca2d63167c9c1b8db369abf887c897b09bb5431b769feb51d7fc6bff8"
+      "sha256": "4d811b242fd03b0c0e34260f99e68623fd1b36e0bf222da7d6c344665ed6e66c"
     },
     {
       "bytes": 6125,
