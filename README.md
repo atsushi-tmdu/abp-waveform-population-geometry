@@ -1,6 +1,6 @@
 # WF-P: Population Geometry of Arterial Blood Pressure Waveform Morphology
 
-**Release status:** pre-WF3 public freeze, version 1.0.0 candidate.
+**Release status:** pre-WF3 public freeze, version 1.0.0.
 
 WF-P asks whether low-dimensional arterial blood pressure (ABP) morphology
 within individual patients is embedded in a reproducible population-common

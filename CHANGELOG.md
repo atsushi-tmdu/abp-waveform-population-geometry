@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.0 — pre-release staging
+## 1.0.0 — 2026-08-22
 
-Initial public WF-P release candidate.
+Initial public WF-P release.
 
 ### Included
 
